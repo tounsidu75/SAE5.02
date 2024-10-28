@@ -20,6 +20,20 @@ Ce projet consiste à configurer un réseau virtuel double sous-réseau sur MARI
 3. **Switchs** : Trois switchs pour la gestion des communications.
 4. **Firewall** : Un routeur jouant le rôle de firewall entre le DHCP et la Gateway.
 
+## Configuration des sous-réseaux
+
+### Sous-réseau 1
+- **Adresse réseau** : `192.168.10.0/24`
+- **Plage d'adresses IP** : `192.168.10.10` à `192.168.10.50`
+- **Passerelle** : `192.168.10.1`
+- **Masque** : `255.255.255.0`
+
+### Sous-réseau 2
+- **Adresse réseau** : `192.168.20.0/24`
+- **Plage d'adresses IP** : `192.168.20.10` à `192.168.20.50`
+- **Passerelle** : `192.168.20.1`
+- **Masque** : `255.255.255.0`
+
 ## Outils Utilisés
 
 - **MARIONET** : Plateforme de simulation pour configurer et tester le réseau.
