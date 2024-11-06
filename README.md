@@ -26,13 +26,13 @@ Ce projet consiste à configurer un réseau virtuel composé de deux sous-résea
 #### Sous-réseau 1
 - **Adresse réseau** : `192.168.10.0/24`
 - **Plage d'adresses IP** : `192.168.10.10` à `192.168.10.50`
-- **Passerelle** : `192.168.10.1` (adresse côté firewall)
+- **Passerelle** : `192.168.10.1` 
 - **Masque** : `255.255.255.0`
 
 #### Sous-réseau 2
 - **Adresse réseau** : `192.168.20.0/24`
 - **Plage d'adresses IP** : `192.168.20.10` à `192.168.20.50`
-- **Passerelle** : `192.168.20.1` (adresse côté firewall)
+- **Passerelle** : `192.168.20.1` 
 - **Masque** : `255.255.255.0`
 
 ### Outils Utilisés
